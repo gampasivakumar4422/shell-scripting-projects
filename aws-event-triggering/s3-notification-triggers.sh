@@ -10,7 +10,7 @@ echo "AWS Account ID: $aws_account_id"
 
 # Set AWS region and bucket name
 aws_region="ap-south-1"
-bucket_name="sivakumar-ultimate-bucket"
+aws s3api create-bucket --bucket sivakumar-ultimate-bucket
 lambda_func_name="s3-lambda-function"
 role_name="s3-lambda-sns"
 email_address="sivagampa4422@gmail.com"
